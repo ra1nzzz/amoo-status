@@ -8,7 +8,7 @@
   "total": 6,
   "status": "waiting",
   "detail": "运行 0 / 等待 1 / 空闲 5",
-  "updated": "2026-10-19T05:19:50+08:00",
+  "updated": "2026-10-19T05:24:57+08:00",
   "health": "ok",
   "providers": {
     "codex": {
@@ -30,7 +30,7 @@
         "kind": "local_files",
         "scope": "loaded_threads",
         "health": "ok",
-        "observed_at": "2026-10-19T05:19:50+08:00",
+        "observed_at": "2026-10-19T05:24:57+08:00",
         "warnings": [],
         "waiting_detection": "persisted_requests_only"
       },
