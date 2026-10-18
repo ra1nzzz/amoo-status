@@ -1,7 +1,7 @@
 {
-  "active": 1,
+  "active": 0,
   "waiting": 0,
-  "status": "developing",
-  "detail": "背屏工坊开发",
-  "updated": "2026-10-18T20:12:58+08:00"
+  "status": "idle",
+  "detail": "",
+  "updated": "2026-10-18T20:18:01+08:00"
 }
