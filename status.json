@@ -7,9 +7,9 @@
   "active": 2,
   "total": 5,
   "status": "waiting",
-  "detail": "运行 0 / 等待 2 / 空闲 3",
-  "updated": "2026-10-20T19:35:24+08:00",
-  "health": "ok",
+  "detail": "运行 0 / 等待 2 / 空闲 3（采集降级，数值包含最近记录）",
+  "updated": "2026-10-20T19:37:10+08:00",
+  "health": "degraded",
   "providers": {
     "codex": {
       "running": 0,
@@ -21,23 +21,25 @@
       "subagents": {
         "running": 1,
         "waiting": 0,
-        "idle": 16,
-        "stale": 0,
-        "active": 1,
+        "idle": 15,
+        "stale": 1,
+        "active": 2,
         "total": 17
       },
       "source": {
         "kind": "local_files",
         "scope": "loaded_threads",
-        "health": "ok",
-        "observed_at": "2026-10-20T19:35:24+08:00",
-        "warnings": [],
+        "health": "degraded",
+        "observed_at": "2026-10-20T19:37:10+08:00",
+        "warnings": [
+          "unfinished_turn_without_recent_activity"
+        ],
         "waiting_detection": "persisted_requests_only"
       },
       "quota": {
         "status": "available",
         "source": "local_token_count",
-        "observed_at": "2026-10-20T19:35:23+08:00",
+        "observed_at": "2026-10-20T19:37:09+08:00",
         "windows": [
           {
             "name": "primary",
