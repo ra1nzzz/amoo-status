@@ -8,7 +8,7 @@
   "total": 6,
   "status": "waiting",
   "detail": "运行 0 / 等待 2 / 空闲 3 / 状态过期 1（采集降级，数值包含最近记录）",
-  "updated": "2026-10-21T17:41:20+08:00",
+  "updated": "2026-10-21T17:46:26+08:00",
   "health": "degraded",
   "providers": {
     "codex": {
@@ -30,7 +30,7 @@
         "kind": "local_files",
         "scope": "loaded_threads",
         "health": "degraded",
-        "observed_at": "2026-10-21T17:41:20+08:00",
+        "observed_at": "2026-10-21T17:46:26+08:00",
         "warnings": [
           "unfinished_turn_without_recent_activity"
         ],
