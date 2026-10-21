@@ -8,7 +8,7 @@
   "total": 0,
   "status": "idle",
   "detail": "运行 0 / 等待 0 / 空闲 0",
-  "updated": "2026-10-22T01:13:32+08:00",
+  "updated": "2026-10-22T01:18:39+08:00",
   "health": "ok",
   "providers": {
     "codex": {
@@ -30,7 +30,7 @@
         "kind": "local_files",
         "scope": "loaded_threads",
         "health": "ok",
-        "observed_at": "2026-10-22T01:13:32+08:00",
+        "observed_at": "2026-10-22T01:18:39+08:00",
         "warnings": [],
         "waiting_detection": "persisted_requests_only"
       },
