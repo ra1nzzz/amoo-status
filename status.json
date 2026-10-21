@@ -1,22 +1,22 @@
 {
   "schema_version": 2,
-  "running": 3,
+  "running": 4,
   "waiting": 1,
-  "idle": 2,
+  "idle": 1,
   "stale": 0,
-  "active": 4,
+  "active": 5,
   "total": 6,
   "status": "waiting",
-  "detail": "运行 3 / 等待 1 / 空闲 2",
-  "updated": "2026-10-21T22:13:48+08:00",
+  "detail": "运行 4 / 等待 1 / 空闲 1",
+  "updated": "2026-10-21T22:14:48+08:00",
   "health": "ok",
   "providers": {
     "codex": {
-      "running": 3,
+      "running": 4,
       "waiting": 1,
-      "idle": 2,
+      "idle": 1,
       "stale": 0,
-      "active": 4,
+      "active": 5,
       "total": 6,
       "subagents": {
         "running": 1,
@@ -30,14 +30,14 @@
         "kind": "local_files",
         "scope": "loaded_threads",
         "health": "ok",
-        "observed_at": "2026-10-21T22:13:48+08:00",
+        "observed_at": "2026-10-21T22:14:48+08:00",
         "warnings": [],
         "waiting_detection": "persisted_requests_only"
       },
       "quota": {
         "status": "available",
         "source": "local_token_count",
-        "observed_at": "2026-10-21T22:13:38+08:00",
+        "observed_at": "2026-10-21T22:14:44+08:00",
         "windows": [
           {
             "name": "primary",
