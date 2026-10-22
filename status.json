@@ -7,9 +7,9 @@
   "active": 4,
   "total": 4,
   "status": "waiting",
-  "detail": "运行 2 / 等待 2 / 空闲 0",
-  "updated": "2026-10-22T15:10:02+08:00",
-  "health": "ok",
+  "detail": "运行 2 / 等待 2 / 空闲 0（采集降级，数值包含最近记录）",
+  "updated": "2026-10-22T15:17:11+08:00",
+  "health": "degraded",
   "providers": {
     "codex": {
       "running": 2,
@@ -19,30 +19,32 @@
       "active": 4,
       "total": 4,
       "subagents": {
-        "running": 8,
+        "running": 2,
         "waiting": 0,
-        "idle": 2,
-        "stale": 0,
-        "active": 8,
-        "total": 10
+        "idle": 5,
+        "stale": 1,
+        "active": 3,
+        "total": 8
       },
       "source": {
         "kind": "local_files",
         "scope": "loaded_threads",
-        "health": "ok",
-        "observed_at": "2026-10-22T15:10:02+08:00",
-        "warnings": [],
+        "health": "degraded",
+        "observed_at": "2026-10-22T15:17:11+08:00",
+        "warnings": [
+          "unfinished_turn_without_recent_activity"
+        ],
         "waiting_detection": "persisted_requests_only"
       },
       "quota": {
         "status": "available",
         "source": "local_token_count",
-        "observed_at": "2026-10-22T15:09:59+08:00",
+        "observed_at": "2026-10-22T15:17:01+08:00",
         "windows": [
           {
             "name": "primary",
-            "used_percent": 3.0,
-            "remaining_percent": 97.0,
+            "used_percent": 4.0,
+            "remaining_percent": 96.0,
             "window_minutes": 10080,
             "resets_at": "2026-10-29T13:34:44+08:00"
           }
