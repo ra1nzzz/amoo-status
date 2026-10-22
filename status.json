@@ -8,7 +8,7 @@
   "total": 4,
   "status": "waiting",
   "detail": "运行 1 / 等待 2 / 空闲 0 / 状态过期 1（采集降级，数值包含最近记录）",
-  "updated": "2026-10-22T20:11:26+08:00",
+  "updated": "2026-10-22T20:12:26+08:00",
   "health": "degraded",
   "providers": {
     "codex": {
@@ -19,18 +19,18 @@
       "active": 4,
       "total": 4,
       "subagents": {
-        "running": 2,
+        "running": 3,
         "waiting": 0,
-        "idle": 9,
+        "idle": 8,
         "stale": 0,
-        "active": 2,
+        "active": 3,
         "total": 11
       },
       "source": {
         "kind": "local_files",
         "scope": "loaded_threads",
         "health": "degraded",
-        "observed_at": "2026-10-22T20:11:26+08:00",
+        "observed_at": "2026-10-22T20:12:26+08:00",
         "warnings": [
           "unfinished_turn_without_recent_activity"
         ],
@@ -39,7 +39,7 @@
       "quota": {
         "status": "available",
         "source": "local_token_count",
-        "observed_at": "2026-10-22T20:11:25+08:00",
+        "observed_at": "2026-10-22T20:12:24+08:00",
         "windows": [
           {
             "name": "primary",
