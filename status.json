@@ -8,7 +8,7 @@
   "total": 3,
   "status": "developing",
   "detail": "运行 3 / 等待 0 / 空闲 0（采集降级，数值包含最近记录）",
-  "updated": "2026-10-23T09:16:29+08:00",
+  "updated": "2026-10-23T09:18:24+08:00",
   "health": "degraded",
   "providers": {
     "codex": {
@@ -30,7 +30,7 @@
         "kind": "local_files",
         "scope": "loaded_threads",
         "health": "degraded",
-        "observed_at": "2026-10-23T09:16:29+08:00",
+        "observed_at": "2026-10-23T09:18:24+08:00",
         "warnings": [
           "unfinished_turn_without_recent_activity"
         ],
@@ -39,12 +39,12 @@
       "quota": {
         "status": "available",
         "source": "local_token_count",
-        "observed_at": "2026-10-23T09:16:14+08:00",
+        "observed_at": "2026-10-23T09:18:23+08:00",
         "windows": [
           {
             "name": "primary",
-            "used_percent": 14.0,
-            "remaining_percent": 86.0,
+            "used_percent": 15.0,
+            "remaining_percent": 85.0,
             "window_minutes": 10080,
             "resets_at": "2026-10-30T01:09:51+08:00"
           }
