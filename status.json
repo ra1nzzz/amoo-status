@@ -8,7 +8,7 @@
   "total": 3,
   "status": "developing",
   "detail": "运行 3 / 等待 0 / 空闲 0",
-  "updated": "2026-10-23T13:34:23+08:00",
+  "updated": "2026-10-23T13:35:23+08:00",
   "health": "ok",
   "providers": {
     "codex": {
@@ -19,25 +19,25 @@
       "active": 3,
       "total": 3,
       "subagents": {
-        "running": 2,
+        "running": 1,
         "waiting": 0,
-        "idle": 6,
+        "idle": 7,
         "stale": 0,
-        "active": 2,
+        "active": 1,
         "total": 8
       },
       "source": {
         "kind": "local_files",
         "scope": "loaded_threads",
         "health": "ok",
-        "observed_at": "2026-10-23T13:34:23+08:00",
+        "observed_at": "2026-10-23T13:35:23+08:00",
         "warnings": [],
         "waiting_detection": "persisted_requests_only"
       },
       "quota": {
         "status": "available",
         "source": "local_token_count",
-        "observed_at": "2026-10-23T13:34:23+08:00",
+        "observed_at": "2026-10-23T13:35:13+08:00",
         "windows": [
           {
             "name": "primary",
