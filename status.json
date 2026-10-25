@@ -8,7 +8,7 @@
   "total": 3,
   "status": "developing",
   "detail": "运行 2 / 等待 0 / 空闲 1",
-  "updated": "2026-10-25T16:50:33+08:00",
+  "updated": "2026-10-25T16:55:45+08:00",
   "health": "ok",
   "providers": {
     "codex": {
@@ -30,14 +30,14 @@
         "kind": "local_files",
         "scope": "loaded_threads",
         "health": "ok",
-        "observed_at": "2026-10-25T16:50:33+08:00",
+        "observed_at": "2026-10-25T16:55:45+08:00",
         "warnings": [],
         "waiting_detection": "persisted_requests_only"
       },
       "quota": {
         "status": "available",
         "source": "local_token_count",
-        "observed_at": "2026-10-25T16:50:05+08:00",
+        "observed_at": "2026-10-25T16:55:24+08:00",
         "windows": [
           {
             "name": "primary",
