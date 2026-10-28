@@ -8,7 +8,7 @@
   "total": 3,
   "status": "idle",
   "detail": "运行 0 / 等待 0 / 空闲 3",
-  "updated": "2026-10-29T03:15:31+08:00",
+  "updated": "2026-10-29T03:16:41+08:00",
   "health": "ok",
   "providers": {
     "codex": {
@@ -19,18 +19,18 @@
       "active": 0,
       "total": 3,
       "subagents": {
-        "running": 0,
+        "running": 1,
         "waiting": 0,
-        "idle": 9,
+        "idle": 8,
         "stale": 0,
-        "active": 0,
+        "active": 1,
         "total": 9
       },
       "source": {
         "kind": "local_files",
         "scope": "loaded_threads",
         "health": "ok",
-        "observed_at": "2026-10-29T03:15:31+08:00",
+        "observed_at": "2026-10-29T03:16:41+08:00",
         "warnings": [],
         "waiting_detection": "persisted_requests_only"
       },
