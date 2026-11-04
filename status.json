@@ -8,7 +8,7 @@
   "total": 2,
   "status": "idle",
   "detail": "运行 0 / 等待 0 / 空闲 2（采集降级，数值包含最近记录）",
-  "updated": "2026-11-04T09:38:34+08:00",
+  "updated": "2026-11-04T09:43:40+08:00",
   "health": "degraded",
   "providers": {
     "codex": {
@@ -30,7 +30,7 @@
         "kind": "local_files",
         "scope": "loaded_threads",
         "health": "degraded",
-        "observed_at": "2026-11-04T09:38:34+08:00",
+        "observed_at": "2026-11-04T09:43:40+08:00",
         "warnings": [
           "unfinished_turn_without_recent_activity"
         ],
